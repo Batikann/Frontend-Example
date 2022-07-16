@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&display=swap");
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+#card-div {
+  width: 336px;
+  height: 570px;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+#ntf-image {
+  border-radius: 10px;
+}
+
+#header {
+  color: white;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+
+#text {
+  color: #bdc3c7;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#nft-header {
+  display: flex;
+}
+
+#eth-text {
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+#time-text {
+  color: #bdc3c7;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin-left: auto;
+}
+
+#line{
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    width: 280px;
+    margin: 0 auto;
+}
+
+
+#avatar-content{
+    padding-top: 15px;
+}
+
+#avatar{
+    border: 1px solid white;
+    border-radius:50% ;
+}
+
+#span1{
+    color: #bdc3c7;
+    font-family: "Outfit", sans-serif;
+}
+
+#span2{
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
