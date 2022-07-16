@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&display=swap');
+
+
+body{
+    background-color: #82ccdd;
+}
+
+#qr-image{
+    border-radius: 10px;
+    margin: auto 0;
+}
+
+#card-div{
+    border-radius: 20px;
+}
+
+
+#header{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#text{
+    font-family: 'Outfit', sans-serif;
+    color: gray;
+}
