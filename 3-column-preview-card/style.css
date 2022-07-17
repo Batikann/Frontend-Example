@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+.container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    text-align: center;
+}
+
+
+.sedans-container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.sedans-container2{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.sedans-container3{
+ 
+   text-align: center;
+   margin: 0 25px;
+   padding-left: -50px;
+    
+}
+
+
+.sedans-header{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 35px;
+    margin-right: auto;
+}
+
+#mainsedans-text{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.row-div{
+    text-align: center;
+}
