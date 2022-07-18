@@ -73,6 +73,21 @@ body {
   cursor: pointer;
 }
 
+.rating-button2{
+  display: flex;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  margin-right: 20px;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 .rating-button:hover {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
