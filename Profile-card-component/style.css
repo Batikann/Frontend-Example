@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Overpass:wght@400;700&display=swap");
+
+body {
+  background-color: hsl(185, 75%, 39%);
+}
+
+.card {
+  margin-top: 15rem;
+  height: 30rem;
+  width: 25rem;
+  border-style: none;
+  margin-left: 25rem;
+  border-radius: 25px;
+}
+
+.name {
+  color: hsl(229, 23%, 23%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 2rem 0 0 7.8rem;
+}
+
+.age {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+
+.city {
+  color: hsl(227, 10%, 46%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  margin: 0.4rem 0 0 10.8rem;
+}
+
+.horizontal {
+  border-bottom: 1px solid hsla(0, 0%, 59%, 0.3);
+  margin-top: 2rem;
+}
+
+.avatar-icon {
+  border: 7px solid white;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  margin: -4rem 0 0 8.8rem;
+}
+
+.number-bottom {
+  color: hsl(229, 23%, 23%);
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.number-bottom-2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+}
+
+.row {
+  margin-top: 2rem;
+}
+
+#column-left {
+  padding-left: 4rem;
+}
+
+#column-right {
+  padding-right: 4rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    margin: 3rem auto;
+    height: 27rem;
+    width: 20rem;
+    border-style: none;
+  }
+
+  .avatar-icon {
+    border: 7px solid white;
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    margin: -4rem 0 0 6.3rem;
+  }
+
+  .name {
+    color: hsl(229, 23%, 23%);
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 2rem 0 0 5rem;
+  }
+
+  .city {
+    color: hsl(227, 10%, 46%);
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    margin: 0.4rem 0 0 8rem;
+  }
+
+  .number-bottom-2 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    font-size: 0.7rem;
+    margin-top: -0.5rem;
+  }
+
+  #column-left {
+    padding-left: 2rem;
+  }
+  #column-right {
+    padding-right: 2rem;
+  }
+}
