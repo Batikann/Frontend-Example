@@ -31,54 +31,69 @@
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
-        <div id="colleps-div">
-          <div id="top-div">
-            <span id="top-div-text"
-              >Try it free 7 days then $20/mo. thereafter</span
-            >
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <form id="form-group">
-                <input
-                  type="text"
-                  name="surName"
-                  id="surName"
-                  class="form-control"
-                  placeholder="First Name"
-                />
-                <input
-                  type="text"
-                  name="lastName"
-                  id="lastName"
-                  class="form-control"
-                  placeholder="Last Name"
-                />
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="form-control"
-                  placeholder="Email Address"
-                />
-                <input
-                  type="password"
-                  name="password"
-                  id="password"
-                  class="form-control"
-                  placeholder="Password"
-                />
-                <button id="btn" class="form-control" type="submit">
-                  CLAIM YOUR FREE TRIAL
-                </button>
-              </form>
-              <p id="bottom-text">
-                By clicking the button you are agreeing to our
-                <a href="/" id="bottom-link">Terms and Services</a>
-              </p>
+          <div id="colleps-div">
+            <div id="top-div">
+              <span id="top-div-text"
+                >Try it free 7 days then $20/mo. thereafter</span
+              >
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <form id="form-group">
+                  <div>
+                    <input
+                      type="text"
+                      name="surName"
+                      id="surName"
+                      class="form-control"
+                      placeholder="First Name"
+                    />
+                    <p class="error-message">First Name cannot be empty</p>
+                  </div>
+
+                  <div>
+                    <input
+                      type="text"
+                      name="lastName"
+                      id="lastName"
+                      class="form-control"
+                      placeholder="Last Name"
+                    />
+                    <p class="error-message">Last Name cannot be empty</p>
+                  </div>
+
+                  <div>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="Email Address"
+                    />
+                    <p class="error-message">Looks like this is not an email</p>
+                  </div>
+
+                  <div>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      class="form-control"
+                      placeholder="Password"
+                    />
+                    <p class="error-message">Password cannot be empty</p>
+                  </div>
+                  <button id="btn" class="form-control" type="submit">
+                    CLAIM YOUR FREE TRIAL
+                  </button>
+                </form>
+                <p id="bottom-text">
+                  By clicking the button you are agreeing to our
+                  <a href="/" id="bottom-link">Terms and Services</a>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
