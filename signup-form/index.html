@@ -32,12 +32,12 @@
         </div>
         <div class="col-md-6 col-sm-12">
           <div id="colleps-div">
-            <div id="top-div">
+            <div id="top-div" style="margin-left: -3px;">
               <span id="top-div-text"
                 >Try it free 7 days then $20/mo. thereafter</span
               >
             </div>
-            <div class="card">
+            <div id="card-collepse" class="card card-sizee">
               <div class="card-body">
                 <form id="form-group">
                   <div>
@@ -45,10 +45,15 @@
                       type="text"
                       name="surName"
                       id="surName"
-                      class="form-control"
+                      class="form-control test_test"
                       placeholder="First Name"
                     />
-                    <p class="error-message">First Name cannot be empty</p>
+                    <p
+                      id="firstName-text"
+                      class="error-message text-visibility "
+                    >
+                      First Name cannot be empty
+                    </p>
                   </div>
 
                   <div>
@@ -56,34 +61,43 @@
                       type="text"
                       name="lastName"
                       id="lastName"
-                      class="form-control"
+                      class="form-control test_test"
                       placeholder="Last Name"
                     />
-                    <p class="error-message">Last Name cannot be empty</p>
+                    <p id="lastName-text" class="error-message text-visibility">
+                      Last Name cannot be empty
+                    </p>
                   </div>
 
                   <div>
                     <input
-                      type="email"
+                      type="text"
                       name="email"
                       id="email"
-                      class="form-control"
+                      class="form-control test_test"
                       placeholder="Email Address"
                     />
-                    <p class="error-message">Looks like this is not an email</p>
+                    <p id="email-blank" class="error-message text-visibility">
+                      Email cannot be empty
+                    </p>
+                    <span id="email-valid" class="error-message text-visibility">
+                      Looks like this is not an email
+                    </span>
                   </div>
 
-                  <div>
+                  <div id="password-div">
                     <input
                       type="password"
                       name="password"
                       id="password"
-                      class="form-control"
+                      class="form-control test_test"
                       placeholder="Password"
                     />
-                    <p class="error-message">Password cannot be empty</p>
+                    <p id="password-text" class="error-message text-visibility">
+                      Password cannot be empty
+                    </p>
                   </div>
-                  <button id="btn" class="form-control" type="submit">
+                  <button id="btn" class="form-control test_test1" type="submit">
                     CLAIM YOUR FREE TRIAL
                   </button>
                 </form>
