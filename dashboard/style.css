@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+.dark-body {
+  background-color: hsl(230, 17%, 14%);
+}
+
+.white-body {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.main-header {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  justify-content: right;
+}
+
+
+
+.main-header-white {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(230, 17%, 14%);
+  font-size: 2rem;
+  justify-content: right;
+}
+
+.toggle-dark {
+  position: relative;
+  display: block;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 4rem;
+  background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  margin-left: auto;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.toggle-white {
+  position: relative;
+  display: block;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 4rem;
+  background: hsl(230, 22%, 74%);
+  margin-left: auto;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.toggle-dark .indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  left: 3px;
+  bottom: 5px;
+  top: 4px;
+  background: hsl(230, 17%, 14%);
+  border-radius: 50%;
+}
+
+.toggle-white .indicator-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  left: 35px;
+  bottom: 5px;
+  top: 4px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.toggle-white.active .indicator-2 {
+left: 5px;
+}
+
+
+
+.row {
+  margin-top: 0.2rem;
+}
+
+.dark-text {
+  margin-left: -6rem;
+  color: hsl(228, 12%, 44%);
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  padding-top: 0.1rem;
+}
+
+.dark-followers {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.hr {
+  position: absolute;
+}
+
+.toggle-icon {
+  margin-top: 0.7rem;
+}
+
+.dark-bg {
+  background-color: hsl(232, 19%, 15%);
+  padding: 3rem;
+  height: 18rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.white-bg {
+  background-color: hsl(225, 100%, 98%);
+  padding: 3rem;
+  height: 18rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.card {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.card-dark {
+  background-color: hsl(228, 28%, 20%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.card-dark:hover {
+  background-color: hsl(228, 12%, 30%);
+}
+
+.card-white {
+  background-color: hsl(227, 47%, 96%);
+  text-align: center;
+  color: hsl(230, 17%, 14%);
+  margin-top: 3rem;
+  border: none;
+}
+
+.card-facebook {
+  border-top: 0.3rem solid hsl(208, 92%, 53%);
+}
+
+.card-twiter {
+  border-top: 0.3rem solid hsl(203, 89%, 53%);
+}
+
+.card-instagram {
+  border-top: 0.3rem solid hsl(327, 60%, 52%);
+}
+
+.facebook-div {
+  padding: 2rem 2rem 1rem 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.text-div {
+  font-weight: 700;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.followers {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: hsl(228, 34%, 66%);
+  font-size: 0.8rem;
+  margin-top: -0.7rem;
+  word-spacing: 0.2rem;
+  margin-left: -0.5rem;
+}
+
+.name {
+  color: hsl(228, 34%, 66%);
+  font-family: "Inter", sans-serif;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.name-white {
+  color: hsl(228, 12%, 30%);
+  font-family: "Inter", sans-serif;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer-text {
+  color: hsl(163, 72%, 41%);
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-text-2 {
+  color: hsl(356, 69%, 56%);
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+.card-youtube {
+  border-top: 0.3rem solid hsl(348, 97%, 39%);
+}
+
+.card-overview {
+  padding: 1rem;
+}
+
+.overview {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.overview-white {
+  color: hsl(228, 12%, 44%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+}
+
+.card-overview {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.card-overview-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(228, 12%, 44%);
+  margin-left: 0.5rem;
+}
+
+.card-overview-text-likes {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(228, 12%, 44%);
+}
+
+.card-overview-text-like {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(228, 12%, 44%);
+  margin-left: 0.5rem;
+}
+
+.overview-middle-text {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1.5rem 3rem 0 0;
+}
+
+.overview-middle-text-white {
+  color: hsl(228, 28%, 20%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1.5rem 3rem 0 0;
+}
+
+.overview-middle-textt {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1.5rem 5rem 0 0;
+}
+
+.overview-middle-textt-white {
+  color: hsl(228, 28%, 20%);
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1.5rem 5rem 0 0;
+}
+
+.overview-middle-text-2 {
+  font-family: "Inter", sans-serif;
+  color: hsl(163, 72%, 41%);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.overview-middle-text-3 {
+  font-family: "Inter", sans-serif;
+  color: hsl(356, 69%, 56%);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.face-icn {
+  margin-bottom: 2.8rem;
+}
+
+.insta-icn {
+  margin: 0 0 2.8rem 3rem;
+}
+
+.card-overview-img {
+  padding-right: 1.5rem;
+}
+
+.overview-middle-text-likes {
+  margin-left: 1rem;
+}
+
+.card-white:hover {
+  cursor: pointer;
+  background-color: hsla(228, 12%, 44%, 0.3);
+}
+
+@media only screen and (max-width: 425px) {
+  .hr {
+    position: relative;
+    border-bottom: 1px solid hsl(228, 12%, 30%);
+    margin: 1rem;
+  }
+
+  .main-header {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    justify-content: right;
+  }
+
+  .main-header-white {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: hsl(228, 28%, 20%);
+    font-size: 1.5rem;
+    justify-content: right;
+  }
+
+  .dark-text {
+    margin-left: -15rem;
+    color: hsl(228, 12%, 44%);
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    padding-top: 0.1rem;
+  }
+  
+}
