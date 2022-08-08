@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  background-color: hsl(240, 78%, 98%);
+  min-height: 100vh;
+  background-image: url("imgs/bg-top.svg"), url("imgs/bg-bottom.svg");
+  background-position: right top, left bottom;
+  background-repeat: no-repeat;
+}
+
+.top-header {
+  text-align: center;
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: hsl(233, 13%, 49%);
+}
+
+.card-1 {
+  text-align: center;
+  width: 25rem;
+  height: 33rem;
+}
+
+.card-2{
+  text-align: center;
+  width: 25rem;
+  height: 33rem;
+  background: linear-gradient(180deg,
+  hsl(236, 72%, 79%),
+  hsl(237, 63%, 64%));
+  border: none;
+  padding-bottom: 5rem;
+}
+
+.card-3{
+  text-align: center;
+  width: 25rem;
+  height: 33rem;
+}
+
+.col-md-4{
+  margin-top: 3.5rem;
+}
+
+
+.top-title {
+  font-size: 1.5rem;
+  margin: 1rem 0 1.2rem 0;
+  color: hsl(233, 13%, 49%);
+}
+
+
+
+.main-div {
+  padding: 1rem;  
+}
+
+
+
+.card-price {
+  font-size: 4.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.card-price-2{
+  font-size: 4.5rem;
+  margin-bottom: 1.2rem;
+  color: hsl(240, 78%, 98%);
+}
+
+.hr {
+  border-bottom: 1px solid hsl(234, 14%, 74%);
+  width: 75%;
+  margin: auto;
+}
+
+.card-title {
+  color: hsl(233, 13%, 49%);
+  padding: 1rem;
+}
+
+.card-title-2{
+  color: hsl(240, 78%, 98%);
+  padding: 1rem;
+}
+
+.btn-div{
+  margin: 2rem 0 0.9rem 0;
+
+}
+
+
+.btnn{
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 75%;
+  color: hsl(240, 78%, 98%);
+  background: linear-gradient(to right,hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+  padding: 0.8rem;
+  width: 75%;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+
+}
+
+.btn-2{
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 75%;
+  background: hsl(240, 78%, 98%);
+  color: hsl(237, 63%, 64%);
+  padding: 0.8rem;
+  width: 75%;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
